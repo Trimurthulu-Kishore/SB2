@@ -13,7 +13,6 @@ public class KitDetail {
 	private int id;
 	private int coronaKitId;
 	private int productId;
-	private String productName;
 	private int quantity;
 	private int amount;
 	
@@ -25,7 +24,6 @@ public class KitDetail {
 		this.id = id;
 		this.coronaKitId = coronaKitId;
 		this.productId = productId;
-		this.productName = productName;
 		this.quantity = quantity;
 		this.amount = amount;
 	}
@@ -58,13 +56,5 @@ public class KitDetail {
 	}
 	public void setAmount(int amount) {
 		this.amount = amount;
-	}
-
-	public String getProductName() {
-		return productName;
-	}
-
-	public void setProductName(String productName) {
-		this.productName = productName;
 	}
 }

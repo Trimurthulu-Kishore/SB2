@@ -42,7 +42,7 @@
 									<td>${product.productDescription}</td>
 									<td>${product.cost}</td>
 									<td><a
-										href="${pageContext.request.contextPath}/admin/product-delete/${product.id}">Delete</a></td>
+										href="${pageContext.request.contextPath}/admin/product-delete/${product.id}"><button>Delete</button></a></td>
 								</tr>
 							</core:forEach>
 						</tbody>
